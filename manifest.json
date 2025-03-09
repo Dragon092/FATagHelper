@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Improved Tag Blocks for FurAffinity",
+    "name": "TagHelper for FurAffinity",
     "version": "1.0",
     "description": "Improves the Tag Block feature on FurAffinity",
     "permissions": [
@@ -9,9 +9,6 @@
     "host_permissions": [
         "*://*.furaffinity.net/*"
     ],
-    "background": {
-        "service_worker": "background.js"
-    },
     "action": {
         "default_popup": "popup.html"
     },
